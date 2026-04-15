@@ -1,0 +1,29 @@
+/* ==============================================
+   Gruvbox - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #282828;
+  --fg:          #ebdbb2;
+  --primary:     #d79921;
+  --on-primary:  #282828;
+  --secondary:   #98971a;
+  --on-sec:      #282828;
+  --tertiary:    #d65d0e;
+  --surface:     #32302f;
+  --on-surface:  #ebdbb2;
+  --surf-var:    #3c3836;
+  --on-surf-var: #bdae93;
+  --surf-con:    #504945;
+  --surf-hi:     #665c54;
+  --surf-lo:     #1d2021;
+  --error:       #cc241d;
+  --on-error:    #fbf1c7;
+  --outline:     #928374;
+  --outline-var: #504945;
+  --inverse-sur: #ebdbb2;
+  --inverse-pri: #b57614;
+  --magenta:     #b16286;
+  --cyan:        #689d6a;
+  --blue:        #458588;
+}

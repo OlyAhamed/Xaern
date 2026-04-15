@@ -1,0 +1,25 @@
+/* ==============================================
+   Nord - Rofi Colors
+   ============================================== */
+
+* {
+  bg:          #2e3440;
+  bg-alt:      #4c566a;
+  fg:          #eceff4;
+  fg-alt:      #d8dee9;
+  primary:     #88c0d0;
+  on-primary:  #2e3440;
+  secondary:   #a3be8c;
+  tertiary:    #ebcb8b;
+  surface:     #3b4252;
+  surf-var:    #434c5e;
+  surf-con:    #4c566a;
+  surf-hi:     #575e6d;
+  surf-lo:     #242933;
+  error:       #bf616a;
+  outline:     #616e88;
+  outline-var: #434c5e;
+  magenta:     #b48ead;
+  cyan:        #8fbcbb;
+  blue:        #81a1c1;
+}

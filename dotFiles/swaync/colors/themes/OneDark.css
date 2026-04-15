@@ -1,0 +1,29 @@
+/* ==============================================
+   OneDark - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #282c34;
+  --fg:          #abb2bf;
+  --primary:     #61afef;
+  --on-primary:  #282c34;
+  --secondary:   #98c379;
+  --on-sec:      #282c34;
+  --tertiary:    #e5c07b;
+  --surface:     #21252b;
+  --on-surface:  #abb2bf;
+  --surf-var:    #3e4452;
+  --on-surf-var: #828997;
+  --surf-con:    #2c313a;
+  --surf-hi:     #353b45;
+  --surf-lo:     #1d2026;
+  --error:       #e06c75;
+  --on-error:    #282c34;
+  --outline:     #5c6370;
+  --outline-var: #3e4452;
+  --inverse-sur: #abb2bf;
+  --inverse-pri: #4e78a0;
+  --magenta:     #c678dd;
+  --cyan:        #56b6c2;
+  --blue:        #61afef;
+}

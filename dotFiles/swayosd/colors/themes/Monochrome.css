@@ -1,0 +1,27 @@
+/* ==============================================
+   Monochrome - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #0e0e0e;
+@define-color fg            #e8e8e8;
+@define-color primary       #ffffff;
+@define-color on-primary    #0e0e0e;
+@define-color secondary     #b0b0b0;
+@define-color on-sec        #0e0e0e;
+@define-color tertiary      #787878;
+@define-color surface       #141414;
+@define-color on-surface    #e8e8e8;
+@define-color surf-var      #1e1e1e;
+@define-color on-surf-var   #a0a0a0;
+@define-color surf-con      #242424;
+@define-color surf-hi       #2e2e2e;
+@define-color surf-lo       #0a0a0a;
+@define-color error         #e05c5c;
+@define-color on-error      #0e0e0e;
+@define-color outline       #606060;
+@define-color outline-var   #2e2e2e;
+@define-color inverse-sur   #e8e8e8;
+@define-color inverse-pri   #383838;
+@define-color magenta       #c8c8c8;
+@define-color cyan          #d0d0d0;
+@define-color blue          #a0a0a0;

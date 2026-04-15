@@ -1,0 +1,29 @@
+/* ==============================================
+   Catppuccin - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #1e1e2e;
+  --fg:          #cdd6f4;
+  --primary:     #cba6f7;
+  --on-primary:  #1e1e2e;
+  --secondary:   #a6e3a1;
+  --on-sec:      #1e1e2e;
+  --tertiary:    #fab387;
+  --surface:     #181825;
+  --on-surface:  #cdd6f4;
+  --surf-var:    #313244;
+  --on-surf-var: #bac2de;
+  --surf-con:    #45475a;
+  --surf-hi:     #585b70;
+  --surf-lo:     #181825;
+  --error:       #f38ba8;
+  --on-error:    #1e1e2e;
+  --outline:     #6c7086;
+  --outline-var: #45475a;
+  --inverse-sur: #cdd6f4;
+  --inverse-pri: #7287fd;
+  --magenta:     #f5c2e7;
+  --cyan:        #89dceb;
+  --blue:        #89b4fa;
+}

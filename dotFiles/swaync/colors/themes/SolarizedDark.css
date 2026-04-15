@@ -1,0 +1,29 @@
+/* ==============================================
+   SolarizedDark - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #002b36;
+  --fg:          #839496;
+  --primary:     #268bd2;
+  --on-primary:  #002b36;
+  --secondary:   #859900;
+  --on-sec:      #002b36;
+  --tertiary:    #b58900;
+  --surface:     #073642;
+  --on-surface:  #839496;
+  --surf-var:    #073642;
+  --on-surf-var: #657b83;
+  --surf-con:    #073642;
+  --surf-hi:     #586e75;
+  --surf-lo:     #00212b;
+  --error:       #dc322f;
+  --on-error:    #002b36;
+  --outline:     #586e75;
+  --outline-var: #073642;
+  --inverse-sur: #839496;
+  --inverse-pri: #1a6f8a;
+  --magenta:     #d33682;
+  --cyan:        #2aa198;
+  --blue:        #268bd2;
+}

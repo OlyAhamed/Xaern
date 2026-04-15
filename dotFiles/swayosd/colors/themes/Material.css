@@ -1,0 +1,27 @@
+/* ==============================================
+   Material - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #212121;
+@define-color fg            #eeffff;
+@define-color primary       #82aaff;
+@define-color on-primary    #212121;
+@define-color secondary     #c3e88d;
+@define-color on-sec        #212121;
+@define-color tertiary      #ffcb6b;
+@define-color surface       #1a1a1a;
+@define-color on-surface    #eeffff;
+@define-color surf-var      #2d2d2d;
+@define-color on-surf-var   #b0bec5;
+@define-color surf-con      #292929;
+@define-color surf-hi       #353535;
+@define-color surf-lo       #161616;
+@define-color error         #f07178;
+@define-color on-error      #212121;
+@define-color outline       #546e7a;
+@define-color outline-var   #2d2d2d;
+@define-color inverse-sur   #eeffff;
+@define-color inverse-pri   #3d6eb3;
+@define-color magenta       #c792ea;
+@define-color cyan          #89ddff;
+@define-color blue          #82aaff;

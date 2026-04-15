@@ -1,0 +1,27 @@
+/* ==============================================
+   Nord - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #2e3440;
+@define-color fg            #eceff4;
+@define-color primary       #88c0d0;
+@define-color on-primary    #2e3440;
+@define-color secondary     #a3be8c;
+@define-color on-sec        #2e3440;
+@define-color tertiary      #ebcb8b;
+@define-color surface       #3b4252;
+@define-color on-surface    #eceff4;
+@define-color surf-var      #434c5e;
+@define-color on-surf-var   #d8dee9;
+@define-color surf-con      #4c566a;
+@define-color surf-hi       #575e6d;
+@define-color surf-lo       #242933;
+@define-color error         #bf616a;
+@define-color on-error      #eceff4;
+@define-color outline       #616e88;
+@define-color outline-var   #434c5e;
+@define-color inverse-sur   #eceff4;
+@define-color inverse-pri   #5e81ac;
+@define-color magenta       #b48ead;
+@define-color cyan          #8fbcbb;
+@define-color blue          #81a1c1;

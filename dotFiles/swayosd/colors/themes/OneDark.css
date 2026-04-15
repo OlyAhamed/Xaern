@@ -1,0 +1,27 @@
+/* ==============================================
+   OneDark - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #282c34;
+@define-color fg            #abb2bf;
+@define-color primary       #61afef;
+@define-color on-primary    #282c34;
+@define-color secondary     #98c379;
+@define-color on-sec        #282c34;
+@define-color tertiary      #e5c07b;
+@define-color surface       #21252b;
+@define-color on-surface    #abb2bf;
+@define-color surf-var      #3e4452;
+@define-color on-surf-var   #828997;
+@define-color surf-con      #2c313a;
+@define-color surf-hi       #353b45;
+@define-color surf-lo       #1d2026;
+@define-color error         #e06c75;
+@define-color on-error      #282c34;
+@define-color outline       #5c6370;
+@define-color outline-var   #3e4452;
+@define-color inverse-sur   #abb2bf;
+@define-color inverse-pri   #4e78a0;
+@define-color magenta       #c678dd;
+@define-color cyan          #56b6c2;
+@define-color blue          #61afef;

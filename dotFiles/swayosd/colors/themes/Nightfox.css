@@ -1,0 +1,27 @@
+/* ==============================================
+   Nightfox - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #192330;
+@define-color fg            #cdcecf;
+@define-color primary       #81a1c1;
+@define-color on-primary    #192330;
+@define-color secondary     #a3be8c;
+@define-color on-sec        #192330;
+@define-color tertiary      #ebcb8b;
+@define-color surface       #212e3f;
+@define-color on-surface    #cdcecf;
+@define-color surf-var      #29394f;
+@define-color on-surf-var   #abb1bb;
+@define-color surf-con      #313e51;
+@define-color surf-hi       #3e4f65;
+@define-color surf-lo       #141f2b;
+@define-color error         #bf616a;
+@define-color on-error      #192330;
+@define-color outline       #5e6a75;
+@define-color outline-var   #29394f;
+@define-color inverse-sur   #cdcecf;
+@define-color inverse-pri   #5b7ea6;
+@define-color magenta       #b48ead;
+@define-color cyan          #88c0d0;
+@define-color blue          #81a1c1;

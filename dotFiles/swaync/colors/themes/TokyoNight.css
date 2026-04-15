@@ -1,0 +1,29 @@
+/* ==============================================
+   TokyoNight - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #1a1b2e;
+  --fg:          #c0caf5;
+  --primary:     #7aa2f7;
+  --on-primary:  #1a1b2e;
+  --secondary:   #9ece6a;
+  --on-sec:      #1a1b2e;
+  --tertiary:    #e0af68;
+  --surface:     #1f2035;
+  --on-surface:  #c0caf5;
+  --surf-var:    #292e42;
+  --on-surf-var: #a9b1d6;
+  --surf-con:    #24283b;
+  --surf-hi:     #2e3248;
+  --surf-lo:     #1e2030;
+  --error:       #f7768e;
+  --on-error:    #1a1b2e;
+  --outline:     #565f89;
+  --outline-var: #414868;
+  --inverse-sur: #c0caf5;
+  --inverse-pri: #3d59a1;
+  --magenta:     #bb9af7;
+  --cyan:        #7dcfff;
+  --blue:        #7aa2f7;
+}

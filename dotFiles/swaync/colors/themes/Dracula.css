@@ -1,0 +1,29 @@
+/* ==============================================
+   Dracula - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #282a36;
+  --fg:          #f8f8f2;
+  --primary:     #bd93f9;
+  --on-primary:  #282a36;
+  --secondary:   #50fa7b;
+  --on-sec:      #282a36;
+  --tertiary:    #ffb86c;
+  --surface:     #21222c;
+  --on-surface:  #f8f8f2;
+  --surf-var:    #44475a;
+  --on-surf-var: #6272a4;
+  --surf-con:    #44475a;
+  --surf-hi:     #6272a4;
+  --surf-lo:     #191a21;
+  --error:       #ff5555;
+  --on-error:    #f8f8f2;
+  --outline:     #6272a4;
+  --outline-var: #44475a;
+  --inverse-sur: #f8f8f2;
+  --inverse-pri: #7c6fcd;
+  --magenta:     #ff79c6;
+  --cyan:        #8be9fd;
+  --blue:        #6272a4;
+}

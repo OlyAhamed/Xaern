@@ -1,0 +1,29 @@
+/* ==============================================
+   Monochrome - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #0e0e0e;
+  --fg:          #e8e8e8;
+  --primary:     #ffffff;
+  --on-primary:  #0e0e0e;
+  --secondary:   #b0b0b0;
+  --on-sec:      #0e0e0e;
+  --tertiary:    #787878;
+  --surface:     #141414;
+  --on-surface:  #e8e8e8;
+  --surf-var:    #1e1e1e;
+  --on-surf-var: #a0a0a0;
+  --surf-con:    #242424;
+  --surf-hi:     #2e2e2e;
+  --surf-lo:     #0a0a0a;
+  --error:       #e05c5c;
+  --on-error:    #0e0e0e;
+  --outline:     #606060;
+  --outline-var: #2e2e2e;
+  --inverse-sur: #e8e8e8;
+  --inverse-pri: #383838;
+  --magenta:     #c8c8c8;
+  --cyan:        #d0d0d0;
+  --blue:        #a0a0a0;
+}

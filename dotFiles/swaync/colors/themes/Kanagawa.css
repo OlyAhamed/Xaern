@@ -1,0 +1,29 @@
+/* ==============================================
+   Kanagawa - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #1f1f28;
+  --fg:          #dcd7ba;
+  --primary:     #7e9cd8;
+  --on-primary:  #1f1f28;
+  --secondary:   #98bb6c;
+  --on-sec:      #1f1f28;
+  --tertiary:    #e6c384;
+  --surface:     #16161d;
+  --on-surface:  #dcd7ba;
+  --surf-var:    #2a2a37;
+  --on-surf-var: #c8c093;
+  --surf-con:    #223249;
+  --surf-hi:     #363646;
+  --surf-lo:     #1a1a22;
+  --error:       #c34043;
+  --on-error:    #dcd7ba;
+  --outline:     #727169;
+  --outline-var: #363646;
+  --inverse-sur: #dcd7ba;
+  --inverse-pri: #658594;
+  --magenta:     #957fb8;
+  --cyan:        #7fb4ca;
+  --blue:        #7e9cd8;
+}

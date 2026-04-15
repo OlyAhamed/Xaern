@@ -1,0 +1,27 @@
+/* ==============================================
+   Dracula - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #282a36;
+@define-color fg            #f8f8f2;
+@define-color primary       #bd93f9;
+@define-color on-primary    #282a36;
+@define-color secondary     #50fa7b;
+@define-color on-sec        #282a36;
+@define-color tertiary      #ffb86c;
+@define-color surface       #21222c;
+@define-color on-surface    #f8f8f2;
+@define-color surf-var      #44475a;
+@define-color on-surf-var   #6272a4;
+@define-color surf-con      #44475a;
+@define-color surf-hi       #6272a4;
+@define-color surf-lo       #191a21;
+@define-color error         #ff5555;
+@define-color on-error      #f8f8f2;
+@define-color outline       #6272a4;
+@define-color outline-var   #44475a;
+@define-color inverse-sur   #f8f8f2;
+@define-color inverse-pri   #7c6fcd;
+@define-color magenta       #ff79c6;
+@define-color cyan          #8be9fd;
+@define-color blue          #6272a4;

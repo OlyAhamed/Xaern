@@ -1,0 +1,29 @@
+/* ==============================================
+   Nord - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #2e3440;
+  --fg:          #eceff4;
+  --primary:     #88c0d0;
+  --on-primary:  #2e3440;
+  --secondary:   #a3be8c;
+  --on-sec:      #2e3440;
+  --tertiary:    #ebcb8b;
+  --surface:     #3b4252;
+  --on-surface:  #eceff4;
+  --surf-var:    #434c5e;
+  --on-surf-var: #d8dee9;
+  --surf-con:    #4c566a;
+  --surf-hi:     #575e6d;
+  --surf-lo:     #242933;
+  --error:       #bf616a;
+  --on-error:    #eceff4;
+  --outline:     #616e88;
+  --outline-var: #434c5e;
+  --inverse-sur: #eceff4;
+  --inverse-pri: #5e81ac;
+  --magenta:     #b48ead;
+  --cyan:        #8fbcbb;
+  --blue:        #81a1c1;
+}

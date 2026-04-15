@@ -1,0 +1,25 @@
+/* ==============================================
+   RosePine - Rofi Colors
+   ============================================== */
+
+* {
+  bg:          #191724;
+  bg-alt:      #403d52;
+  fg:          #e0def4;
+  fg-alt:      #908caa;
+  primary:     #c4a7e7;
+  on-primary:  #191724;
+  secondary:   #9ccfd8;
+  tertiary:    #f6c177;
+  surface:     #1f1d2e;
+  surf-var:    #26233a;
+  surf-con:    #403d52;
+  surf-hi:     #524f67;
+  surf-lo:     #111019;
+  error:       #eb6f92;
+  outline:     #6e6a86;
+  outline-var: #403d52;
+  magenta:     #eb6f92;
+  cyan:        #9ccfd8;
+  blue:        #31748f;
+}

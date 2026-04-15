@@ -1,0 +1,29 @@
+/* ==============================================
+   Nightfox - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #192330;
+  --fg:          #cdcecf;
+  --primary:     #81a1c1;
+  --on-primary:  #192330;
+  --secondary:   #a3be8c;
+  --on-sec:      #192330;
+  --tertiary:    #ebcb8b;
+  --surface:     #212e3f;
+  --on-surface:  #cdcecf;
+  --surf-var:    #29394f;
+  --on-surf-var: #abb1bb;
+  --surf-con:    #313e51;
+  --surf-hi:     #3e4f65;
+  --surf-lo:     #141f2b;
+  --error:       #bf616a;
+  --on-error:    #192330;
+  --outline:     #5e6a75;
+  --outline-var: #29394f;
+  --inverse-sur: #cdcecf;
+  --inverse-pri: #5b7ea6;
+  --magenta:     #b48ead;
+  --cyan:        #88c0d0;
+  --blue:        #81a1c1;
+}

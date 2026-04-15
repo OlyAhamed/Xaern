@@ -1,0 +1,27 @@
+/* ==============================================
+   Gruvbox - SwayOSD Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #282828;
+@define-color fg            #ebdbb2;
+@define-color primary       #d79921;
+@define-color on-primary    #282828;
+@define-color secondary     #98971a;
+@define-color on-sec        #282828;
+@define-color tertiary      #d65d0e;
+@define-color surface       #32302f;
+@define-color on-surface    #ebdbb2;
+@define-color surf-var      #3c3836;
+@define-color on-surf-var   #bdae93;
+@define-color surf-con      #504945;
+@define-color surf-hi       #665c54;
+@define-color surf-lo       #1d2021;
+@define-color error         #cc241d;
+@define-color on-error      #fbf1c7;
+@define-color outline       #928374;
+@define-color outline-var   #504945;
+@define-color inverse-sur   #ebdbb2;
+@define-color inverse-pri   #b57614;
+@define-color magenta       #b16286;
+@define-color cyan          #689d6a;
+@define-color blue          #458588;

@@ -1,0 +1,29 @@
+/* ==============================================
+   Material - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #212121;
+  --fg:          #eeffff;
+  --primary:     #82aaff;
+  --on-primary:  #212121;
+  --secondary:   #c3e88d;
+  --on-sec:      #212121;
+  --tertiary:    #ffcb6b;
+  --surface:     #1a1a1a;
+  --on-surface:  #eeffff;
+  --surf-var:    #2d2d2d;
+  --on-surf-var: #b0bec5;
+  --surf-con:    #292929;
+  --surf-hi:     #353535;
+  --surf-lo:     #161616;
+  --error:       #f07178;
+  --on-error:    #212121;
+  --outline:     #546e7a;
+  --outline-var: #2d2d2d;
+  --inverse-sur: #eeffff;
+  --inverse-pri: #3d6eb3;
+  --magenta:     #c792ea;
+  --cyan:        #89ddff;
+  --blue:        #82aaff;
+}

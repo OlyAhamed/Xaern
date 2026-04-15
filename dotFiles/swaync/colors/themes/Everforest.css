@@ -1,0 +1,29 @@
+/* ==============================================
+   Everforest - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #2d3436;
+  --fg:          #d3c6aa;
+  --primary:     #a7c080;
+  --on-primary:  #2d3436;
+  --secondary:   #83c092;
+  --on-sec:      #2d3436;
+  --tertiary:    #dbbc7f;
+  --surface:     #343f44;
+  --on-surface:  #d3c6aa;
+  --surf-var:    #3d4f56;
+  --on-surf-var: #9da9a0;
+  --surf-con:    #475258;
+  --surf-hi:     #56635f;
+  --surf-lo:     #272e33;
+  --error:       #e67e80;
+  --on-error:    #2d3436;
+  --outline:     #7a8478;
+  --outline-var: #475258;
+  --inverse-sur: #d3c6aa;
+  --inverse-pri: #527d5f;
+  --magenta:     #d699b6;
+  --cyan:        #7fbbb3;
+  --blue:        #7fbbb3;
+}

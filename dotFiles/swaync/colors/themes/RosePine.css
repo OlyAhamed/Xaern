@@ -1,0 +1,29 @@
+/* ==============================================
+   RosePine - SwayNC Colors
+   ============================================== */
+
+:root {
+  --bg:          #191724;
+  --fg:          #e0def4;
+  --primary:     #c4a7e7;
+  --on-primary:  #191724;
+  --secondary:   #9ccfd8;
+  --on-sec:      #191724;
+  --tertiary:    #f6c177;
+  --surface:     #1f1d2e;
+  --on-surface:  #e0def4;
+  --surf-var:    #26233a;
+  --on-surf-var: #908caa;
+  --surf-con:    #403d52;
+  --surf-hi:     #524f67;
+  --surf-lo:     #111019;
+  --error:       #eb6f92;
+  --on-error:    #e0def4;
+  --outline:     #6e6a86;
+  --outline-var: #403d52;
+  --inverse-sur: #e0def4;
+  --inverse-pri: #7a5af8;
+  --magenta:     #eb6f92;
+  --cyan:        #9ccfd8;
+  --blue:        #31748f;
+}

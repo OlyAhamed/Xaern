@@ -1,0 +1,99 @@
+/* ==============================================
+   Theme Switcher - Rofi Menu
+   ============================================== */
+
+@import "~/.config/rofi/colors/colors.rasi"
+
+* {
+  font:             "JetBrainsMono Nerd Font 13";
+  background-color: transparent;
+  text-color:       @fg;
+  border:           0;
+  margin:           0;
+  padding:          0;
+  spacing:          0;
+}
+
+window {
+  background-color: @bg;
+  border:           2px solid;
+  border-color:     @primary;
+  border-radius:    12px;
+  width:            320px;
+}
+
+mainbox {
+  padding:          12px;
+  spacing:          8px;
+}
+
+/* ── Header ── */
+inputbar {
+  background-color: @surf-con;
+  border-radius:    8px;
+  padding:          10px 14px;
+  spacing:          10px;
+  children:         [ prompt, entry ];
+}
+
+prompt {
+  background-color: transparent;
+  text-color:       @primary;
+  font:             "JetBrainsMono Nerd Font Bold 13";
+}
+
+entry {
+  background-color: transparent;
+  text-color:       @fg;
+  placeholder:      "search theme...";
+  placeholder-color: @outline;
+}
+
+/* ── List ── */
+listview {
+  lines:            8;
+  scrollbar:        false;
+  spacing:          4px;
+  padding:          4px 0;
+}
+
+element {
+  background-color: transparent;
+  border-radius:    8px;
+  padding:          9px 14px;
+  spacing:          10px;
+  children:         [ element-text ];
+  cursor:           pointer;
+}
+
+element-text {
+  background-color: transparent;
+  text-color:       @fg-alt;
+  vertical-alignment: 0.5;
+}
+
+element selected {
+  background-color: @surf-var;
+}
+
+element selected element-text {
+  text-color: @primary;
+}
+
+element.active element-text {
+  text-color: @secondary;
+  font:       "JetBrainsMono Nerd Font Bold 13";
+}
+
+element.active.selected element-text {
+  text-color: @secondary;
+}
+
+/* ── Scrollbar ── */
+scrollbar {
+  background-color: @surf-lo;
+  handle-color:     @outline;
+  handle-width:     4px;
+  border-radius:    4px;
+  width:            4px;
+}

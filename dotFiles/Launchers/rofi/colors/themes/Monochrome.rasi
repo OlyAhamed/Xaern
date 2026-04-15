@@ -1,0 +1,25 @@
+/* ==============================================
+   Monochrome - Rofi Colors
+   ============================================== */
+
+* {
+  bg:          #0e0e0e;
+  bg-alt:      #242424;
+  fg:          #e8e8e8;
+  fg-alt:      #a0a0a0;
+  primary:     #ffffff;
+  on-primary:  #0e0e0e;
+  secondary:   #b0b0b0;
+  tertiary:    #787878;
+  surface:     #141414;
+  surf-var:    #1e1e1e;
+  surf-con:    #242424;
+  surf-hi:     #2e2e2e;
+  surf-lo:     #0a0a0a;
+  error:       #e05c5c;
+  outline:     #606060;
+  outline-var: #2e2e2e;
+  magenta:     #c8c8c8;
+  cyan:        #d0d0d0;
+  blue:        #a0a0a0;
+}

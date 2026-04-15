@@ -1,0 +1,25 @@
+/* ==============================================
+   Gruvbox - Rofi Colors
+   ============================================== */
+
+* {
+  bg:          #282828;
+  bg-alt:      #504945;
+  fg:          #ebdbb2;
+  fg-alt:      #bdae93;
+  primary:     #d79921;
+  on-primary:  #282828;
+  secondary:   #98971a;
+  tertiary:    #d65d0e;
+  surface:     #32302f;
+  surf-var:    #3c3836;
+  surf-con:    #504945;
+  surf-hi:     #665c54;
+  surf-lo:     #1d2021;
+  error:       #cc241d;
+  outline:     #928374;
+  outline-var: #504945;
+  magenta:     #b16286;
+  cyan:        #689d6a;
+  blue:        #458588;
+}

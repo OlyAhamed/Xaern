@@ -1,0 +1,122 @@
+/* ==============================================
+   Nightfox - GTK Colors (adw-gtk3 + libadwaita)
+   Works for both ~/.config/gtk-3.0/gtk.css
+   and ~/.config/gtk-4.0/gtk.css
+   ============================================== */
+
+:root,
+.light,
+.dark {
+  /* ── Accent ────────────────────────────────── */
+  --accent-bg-color:         #81a1c1;
+  --accent-fg-color:         #192330;
+  --accent-color:            #81a1c1;
+
+  /* ── Window ────────────────────────────────── */
+  --window-bg-color:         #192330;
+  --window-fg-color:         #cdcecf;
+
+  /* ── View (text areas, lists) ──────────────── */
+  --view-bg-color:           #212e3f;
+  --view-fg-color:           #cdcecf;
+
+  /* ── Headerbar ─────────────────────────────── */
+  --headerbar-bg-color:      #141f2b;
+  --headerbar-fg-color:      #cdcecf;
+  --headerbar-border-color:  #29394f;
+  --headerbar-backdrop-color:#192330;
+  --headerbar-shade-color:   #29394f;
+
+  /* ── Card ──────────────────────────────────── */
+  --card-bg-color:           #313e51;
+  --card-fg-color:           #cdcecf;
+  --card-shade-color:        #29394f;
+
+  /* ── Dialog ────────────────────────────────── */
+  --dialog-bg-color:         #313e51;
+  --dialog-fg-color:         #cdcecf;
+
+  /* ── Popover ───────────────────────────────── */
+  --popover-bg-color:        #3e4f65;
+  --popover-fg-color:        #cdcecf;
+  --popover-shade-color:     #29394f;
+
+  /* ── Sidebar ───────────────────────────────── */
+  --sidebar-bg-color:        #141f2b;
+  --sidebar-fg-color:        #cdcecf;
+  --sidebar-backdrop-color:  #192330;
+  --sidebar-border-color:    #29394f;
+  --sidebar-shade-color:     #29394f;
+
+  /* ── Secondary sidebar ─────────────────────── */
+  --secondary-sidebar-bg-color:      #29394f;
+  --secondary-sidebar-fg-color:      #abb1bb;
+  --secondary-sidebar-backdrop-color:#141f2b;
+  --secondary-sidebar-border-color:  #29394f;
+  --secondary-sidebar-shade-color:   #29394f;
+
+  /* ── Thumbnail ─────────────────────────────── */
+  --thumbnail-bg-color:      #313e51;
+  --thumbnail-fg-color:      #cdcecf;
+
+  /* ── Status colors ─────────────────────────── */
+  --destructive-bg-color:    #bf616a;
+  --destructive-fg-color:    #192330;
+  --destructive-color:       #bf616a;
+
+  --success-bg-color:        #a3be8c;
+  --success-fg-color:        #192330;
+  --success-color:           #a3be8c;
+
+  --warning-bg-color:        #ebcb8b;
+  --warning-fg-color:        #192330;
+  --warning-color:           #ebcb8b;
+
+  --error-bg-color:          #bf616a;
+  --error-fg-color:          #192330;
+  --error-color:             #bf616a;
+
+  /* ── Misc ──────────────────────────────────── */
+  --shade-color:             #29394f;
+  --scrollbar-outline-color: #5e6a75;
+  --borders:                 #29394f;
+}
+
+/* ── GTK3 legacy named colors (adw-gtk3) ───────
+   These use @define-color syntax for GTK3        */
+@define-color accent_bg_color          #81a1c1;
+@define-color accent_fg_color          #192330;
+@define-color accent_color             #81a1c1;
+@define-color window_bg_color          #192330;
+@define-color window_fg_color          #cdcecf;
+@define-color view_bg_color            #212e3f;
+@define-color view_fg_color            #cdcecf;
+@define-color headerbar_bg_color       #141f2b;
+@define-color headerbar_fg_color       #cdcecf;
+@define-color headerbar_border_color   #29394f;
+@define-color headerbar_backdrop_color #192330;
+@define-color headerbar_shade_color    #29394f;
+@define-color card_bg_color            #313e51;
+@define-color card_fg_color            #cdcecf;
+@define-color card_shade_color         #29394f;
+@define-color dialog_bg_color          #313e51;
+@define-color dialog_fg_color          #cdcecf;
+@define-color popover_bg_color         #3e4f65;
+@define-color popover_fg_color         #cdcecf;
+@define-color sidebar_bg_color         #141f2b;
+@define-color sidebar_fg_color         #cdcecf;
+@define-color sidebar_backdrop_color   #192330;
+@define-color sidebar_border_color     #29394f;
+@define-color destructive_bg_color     #bf616a;
+@define-color destructive_fg_color     #192330;
+@define-color destructive_color        #bf616a;
+@define-color success_bg_color         #a3be8c;
+@define-color success_fg_color         #192330;
+@define-color success_color            #a3be8c;
+@define-color warning_bg_color         #ebcb8b;
+@define-color warning_fg_color         #192330;
+@define-color warning_color            #ebcb8b;
+@define-color error_bg_color           #bf616a;
+@define-color error_fg_color           #192330;
+@define-color error_color              #bf616a;
+@define-color borders                  #29394f;

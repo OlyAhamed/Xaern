@@ -1,0 +1,180 @@
+@import "../colors/colors.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "SF Pro Display", "Symbols Nerd Font";
+  font-size: 16px;
+  padding: 1px;
+  margin: 0;
+  transition:
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+window#waybar {
+  background-color: @bg;
+  border-radius: 0px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, @outline, @primary) 1;
+  margin: 100px;
+}
+
+tooltip {
+  background: @bg;
+  color: @primary;
+  border: 2px solid @primary_container;
+  border-radius: 0px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+/* ── Workspaces ─────────────────────────────────────────── */
+
+#workspaces {
+  margin: 20px 14px;
+}
+
+#workspaces button {
+  color: transparent;
+  background: @surf-var;
+  margin: 5px 0;
+  border-radius: 8px;
+  min-height: 12px;
+  transition: all 0.25s cubic-bezier(0.55, -0.04, 0.3, 1);
+}
+
+#workspaces button:hover {
+  background: rgba(122, 162, 247, 0.2);
+}
+
+#workspaces button.active {
+  background: linear-gradient(180deg, @primary 0%, @inverse-pri 100%);
+  min-height: 56px;
+  border-radius: 9999px;
+}
+
+#workspaces button:not(.focused):not(.empty) {
+  background-color: alpha(@primary, 0.6);
+}
+
+/* ── Clock ──────────────────────────────────────────────── */
+
+#clock {
+  color: @primary;
+  font-family: "PP Neue Machina Ultrabold";
+  font-weight: 700;
+  font-size: 26px;
+  margin: 15px 0;
+}
+
+/* ── Separator ──────────────────────────────────────────── */
+
+#custom-separator {
+  color: rgba(255, 255, 255, 0.12);
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+/* ── Battery ────────────────────────────────────────────── */
+
+#battery {
+  font-size: 27px;
+  margin: 1px 3px 1px 5px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+/* good (80–100%) */
+#battery.good {
+  color: @secondary;
+}
+
+/* default / mid (30–79%) */
+#battery {
+  color: @secondary;
+}
+
+/* warning (30–15%) */
+#battery.warning {
+  color: #ff9e64;
+}
+
+#battery.critical {
+  color: @error;
+}
+
+/* charging — always blue-ish regardless of level */
+#battery.charging {
+  color: @blue;
+  animation: none;
+}
+
+/* plugged in and full */
+#battery.plugged {
+  color: @primary;
+}
+
+/* ── Network ────────────────────────────────────────────── */
+
+#network {
+  font-size: 25px;
+  margin: 1px 5px 1px 0px;
+  padding: 4px;
+  border-radius: 6px;
+  /* disconnected = red */
+  color: @error;
+}
+
+#network.wifi {
+  /* connected = green */
+  color: @magenta;
+}
+
+#network.disabled {
+  /* adapter off = muted red */
+  color: @surf-var;
+}
+
+/* ── Bluetooth ──────────────────────────────────────────── */
+
+#bluetooth {
+  font-size: 28px;
+  margin: 1px 4px 10px 5px;
+  padding: 4px;
+  border-radius: 6px;
+  /* idle / discoverable = yellow */
+  color: @error;
+}
+
+#bluetooth.connected {
+  /* device connected = blue */
+  color: @blue;
+}
+
+#bluetooth.disabled,
+#bluetooth.off {
+  /* adapter off = red */
+  color: @surf-var;
+}
+
+/* ── Swaync ──────────────────────────────────────────── */
+
+#custom-notification {
+  font-size: 30px;
+  margin: 1px 9px 1px 2px;
+  color: @primary;
+  font-weight: 900;
+}
+
+/* ── Btop ──────────────────────────────────────────── */
+#custom-system {
+  font-size: 27px;
+  margin: 1px 8px 1px 1px;
+  padding: 4px;
+  color: @cyan; 
+}
+
+
+
+

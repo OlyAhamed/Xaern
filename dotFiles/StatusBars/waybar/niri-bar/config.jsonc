@@ -1,0 +1,105 @@
+{
+	"layer": "top",
+	"position": "left",
+	"modules-left": [
+		"clock",
+		"custom/separator",
+		"custom/notification"
+	],
+	"modules-center": [
+		"niri/workspaces"
+	],
+	"modules-right": [
+		"custom/system",
+		"battery",
+		"network",
+		"bluetooth"
+	],
+	"margin-top": 8,
+	"margin-right": 0,
+	"margin-bottom": 8,
+	"margin-left": 8,
+	"clock": {
+		"format": "{:%H\n%M}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+	},
+	"niri/workspaces": {
+		"format": "{name}",
+		"on-scroll-up": "niri msg action focus-workspace-next",
+		"on-scroll-down": "niri msg action focus-workspace-previous",
+		"cursor-pointer": true,
+		"all-outputs": true
+	},
+	"battery": {
+		"states": {
+			"good": 80,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}",
+		"format-charging": "󱐋",
+		"format-plugged": "󰚥",
+		"format-full": "󰁹",
+		"format-icons": [
+			"󰁺",
+			"󰁻",
+			"󰁼",
+			"󰁽",
+			"󰁾",
+			"󰁾",
+			"󰁿",
+			"󰂀",
+			"󰂁",
+			"󰂂"
+		],
+		"tooltip-format": "{capacity}% — {timeTo}",
+	},
+	"network": {
+		"interface": "wlan*",
+		"format": "󱛇",
+		"format-wifi": "󰖩",
+		"format-disconnected": "󰖪",
+		"format-disabled": "󰖪",
+		"tooltip-format": "{essid} ({signalStrength}%)",
+		"tooltip-format-disconnected": "Disconnected",
+		"on-click": "kitty --class impala -e impala",
+		"on-click-right": "pkill impala",
+	},
+	"bluetooth": {
+		"format": "󰂲",
+		"format-connected": "󰂱",
+		"format-disabled": "󰂲",
+		"format-off": "󰂲",
+		"tooltip-format": "{device_alias}",
+		"tooltip-format-connected": "{device_alias}",
+		"tooltip-format-disabled": "Bluetooth disabled",
+		"on-click": " kitty --class bluetui -e bluetui",
+		"on-click-right": "pkill bluetui",
+	},
+	"custom/system": {
+		"format": "",
+		"on-click": "kitty --class btop -e btop",
+		"on-click-right": "pkill btop",
+		"tooltip": false,
+	},
+	"custom/notification": {
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": {
+			"notification": "",
+			"none": "",
+			"dnd-notification": "",
+			"dnd-none": "",
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-right": "swaync-client -d -sw",
+		"escape": true,
+	},
+	"custom/separator": {
+		"format": "—",
+		"tooltip": false,
+	},
+}

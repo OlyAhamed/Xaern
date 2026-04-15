@@ -1,0 +1,27 @@
+/* ==============================================
+   Everforest - Waybar Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #2d3436;
+@define-color fg            #d3c6aa;
+@define-color primary       #a7c080;
+@define-color on-primary    #2d3436;
+@define-color secondary     #83c092;
+@define-color on-sec        #2d3436;
+@define-color tertiary      #dbbc7f;
+@define-color surface       #343f44;
+@define-color on-surface    #d3c6aa;
+@define-color surf-var      #3d4f56;
+@define-color on-surf-var   #9da9a0;
+@define-color surf-con      #475258;
+@define-color surf-hi       #56635f;
+@define-color surf-lo       #272e33;
+@define-color error         #e67e80;
+@define-color on-error      #2d3436;
+@define-color outline       #7a8478;
+@define-color outline-var   #475258;
+@define-color inverse-sur   #d3c6aa;
+@define-color inverse-pri   #527d5f;
+@define-color magenta       #d699b6;
+@define-color cyan          #7fbbb3;
+@define-color blue          #7fbbb3;

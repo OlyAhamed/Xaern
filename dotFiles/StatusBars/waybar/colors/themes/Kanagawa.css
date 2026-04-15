@@ -1,0 +1,27 @@
+/* ==============================================
+   Kanagawa - Waybar Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #1f1f28;
+@define-color fg            #dcd7ba;
+@define-color primary       #7e9cd8;
+@define-color on-primary    #1f1f28;
+@define-color secondary     #98bb6c;
+@define-color on-sec        #1f1f28;
+@define-color tertiary      #e6c384;
+@define-color surface       #16161d;
+@define-color on-surface    #dcd7ba;
+@define-color surf-var      #2a2a37;
+@define-color on-surf-var   #c8c093;
+@define-color surf-con      #223249;
+@define-color surf-hi       #363646;
+@define-color surf-lo       #1a1a22;
+@define-color error         #c34043;
+@define-color on-error      #dcd7ba;
+@define-color outline       #727169;
+@define-color outline-var   #363646;
+@define-color inverse-sur   #dcd7ba;
+@define-color inverse-pri   #658594;
+@define-color magenta       #957fb8;
+@define-color cyan          #7fb4ca;
+@define-color blue          #7e9cd8;

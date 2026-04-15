@@ -1,0 +1,27 @@
+/* ==============================================
+   TokyoNight - Waybar Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #1a1b2e;
+@define-color fg            #c0caf5;
+@define-color primary       #7aa2f7;
+@define-color on-primary    #1a1b2e;
+@define-color secondary     #9ece6a;
+@define-color on-sec        #1a1b2e;
+@define-color tertiary      #e0af68;
+@define-color surface       #1f2035;
+@define-color on-surface    #c0caf5;
+@define-color surf-var      #292e42;
+@define-color on-surf-var   #a9b1d6;
+@define-color surf-con      #24283b;
+@define-color surf-hi       #2e3248;
+@define-color surf-lo       #1e2030;
+@define-color error         #f7768e;
+@define-color on-error      #1a1b2e;
+@define-color outline       #565f89;
+@define-color outline-var   #414868;
+@define-color inverse-sur   #c0caf5;
+@define-color inverse-pri   #3d59a1;
+@define-color magenta       #bb9af7;
+@define-color cyan          #7dcfff;
+@define-color blue          #7aa2f7;

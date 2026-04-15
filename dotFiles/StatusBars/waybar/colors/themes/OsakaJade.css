@@ -1,0 +1,27 @@
+/* ==============================================
+   OsakaJade - Waybar Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #161d1b;
+@define-color fg            #d4e0d8;
+@define-color primary       #3d9970;
+@define-color on-primary    #0d1210;
+@define-color secondary     #7ab89a;
+@define-color on-sec        #0d1210;
+@define-color tertiary      #c4a882;
+@define-color surface       #1c2421;
+@define-color on-surface    #d4e0d8;
+@define-color surf-var      #243028;
+@define-color on-surf-var   #a8c0b0;
+@define-color surf-con      #2a3830;
+@define-color surf-hi       #324038;
+@define-color surf-lo       #111614;
+@define-color error         #c4726a;
+@define-color on-error      #0d1210;
+@define-color outline       #587868;
+@define-color outline-var   #324038;
+@define-color inverse-sur   #d4e0d8;
+@define-color inverse-pri   #2a6b50;
+@define-color magenta       #a07898;
+@define-color cyan          #6ab0a8;
+@define-color blue          #5888a8;

@@ -1,0 +1,27 @@
+/* ==============================================
+   SolarizedLight - Waybar Colors (GTK Native Format)
+   ============================================== */
+
+@define-color bg            #fdf6e3;
+@define-color fg            #657b83;
+@define-color primary       #268bd2;
+@define-color on-primary    #fdf6e3;
+@define-color secondary     #859900;
+@define-color on-sec        #fdf6e3;
+@define-color tertiary      #b58900;
+@define-color surface       #eee8d5;
+@define-color on-surface    #657b83;
+@define-color surf-var      #eee8d5;
+@define-color on-surf-var   #586e75;
+@define-color surf-con      #e8e2cf;
+@define-color surf-hi       #d6d0bd;
+@define-color surf-lo       #f5efdc;
+@define-color error         #dc322f;
+@define-color on-error      #fdf6e3;
+@define-color outline       #93a1a1;
+@define-color outline-var   #eee8d5;
+@define-color inverse-sur   #657b83;
+@define-color inverse-pri   #268bd2;
+@define-color magenta       #d33682;
+@define-color cyan          #2aa198;
+@define-color blue          #268bd2;
